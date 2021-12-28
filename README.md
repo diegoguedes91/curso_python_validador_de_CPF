@@ -90,7 +90,7 @@ cpf_valido = cpf_valido + str(validade_digito)
 ```
 </br>
 
-### Para a ultima etapa basta comparar o CPF digitado com o CPF gerado com o algotimo. 
+### Para a ultima etapa basta comparar o CPF digitado com o CPF gerado com o algoritmo. 
 
 ```python
 if cpf == cpf_valido:
