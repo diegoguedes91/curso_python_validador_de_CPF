@@ -15,6 +15,7 @@ while len(cpf) != 11 or not cpf.isnumeric() or cpf == cpf[::-1]:
     cpf = input('Digite um cpf valido de 11 numeros: ')
 ```
 
+</br>
 
 ### O programa deve ler os 9 primeiros digitos utilizando a regra abaixo e gerar o decimo digito em uma nova variavel :</br>
 
@@ -52,6 +53,7 @@ if digito > 9:
 
 cpf_temp = cpf_temp + str(digito)
 ```
+</br>
 
 ### Agora o programa deve criar o digito 11 utilizando as regras abaixo :</br>
 
@@ -86,6 +88,7 @@ if validade_digito > 9:
 
 cpf_valido = cpf_valido + str(validade_digito)
 ```
+</br>
 
 ### Para a ultima etapa basta comparar o CPF digitado com o CPF gerado com o algotimo. 
 
@@ -95,3 +98,7 @@ if cpf == cpf_valido:
 else:
     print(f'O CPF {cpf} não é valido')
   ```
+</br>
+
+## Output do programa: 
+![Imagem de saida do programa](https://github.com/diegoguedes91/curso_python_validador_de_CPF/blob/main/output.JPG)
